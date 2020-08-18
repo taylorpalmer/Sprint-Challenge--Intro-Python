@@ -39,3 +39,8 @@ vehicles = [
 # Go through the vehicles list and print the result of calling drive() on each.
 
 # TODO
+# a = [h.name for h in humans if h.name.startswith('D')]
+# print(a)
+
+for v in vehicles:
+    print(v.drive())
